@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="book_abhishek.xsl"?>  
+<!DOCTYPE books [
+<!ELEMENT books (book)*>
+<!ELEMENT book (Title, Author, Genre, Copyright, Edition, Isbn, Publisher, Price)>
+<!ELEMENT Title (#PCDATA)>
+<!ELEMENT Author (#PCDATA)>
+<!ELEMENT Genre (#PCDATA)>
+<!ELEMENT Copyright (#PCDATA)>
+<!ELEMENT Edition (#PCDATA)>
+<!ELEMENT Isbn (#PCDATA)>
+<!ELEMENT Publisher (#PCDATA)>
+<!ELEMENT Price (#PCDATA)> 
+]>
+
+<books> 
+	<book>
+		<title> HARRY POTTER </title>
+		<author> JK ROWLING </author>
+		<genre> FICTION </genre>
+		<copyright> 2000 </copyright>
+		<edition> FIRST </edition>
+		<isbn> 978-3486942312 </isbn>
+		<publisher> BLOOMSBURY </publisher>
+		<price> 500 </price>
+ 	</book>
+ 	<book>
+		<title> SHERLOCK HOLMES </title>
+		<author> SIR ARTHUR CONAN DOYLE </author>
+		<genre> THRILLER </genre>
+		<copyright> 1927 </copyright>
+		<edition> FIRST </edition>
+		<isbn> 978-0553328257 </isbn>
+		<publisher> GEORGE NEWNES </publisher>
+		<price> 285 </price>
+	</book>
+	<book>
+		<title> FIVE POINTS SOMEONE </title>
+		<author> CHETAN BHAGAT </author>
+		<genre> DRAMA </genre>
+		<copyright> 2004 </copyright>
+		<edition> FIRST </edition>
+		<isbn> 978-8129104595 </isbn>
+		<publisher> RUPA PUBLICATIONS </publisher>
+		<price> 150 </price>
+ 	</book>
+ 	<book>
+		<title> THREE MISTAKES OF MY LIFE </title>
+		<author> CHETAN BHAGAT </author>
+		<genre> DRAMA </genre>
+		<copyright> 2010 </copyright>
+		<edition> FIRST </edition>
+		<isbn> 978-8129167305 </isbn>
+		<publisher> RUPA PUBLICATIONS </publisher>
+		<price> 300 </price>
+ 	</book>
+ 	<book>
+		<title> THE NOTEBOOK </title>
+		<author> NICHOLAS SPARKS </author>
+		<genre> ROMANCE </genre>
+		<copyright> 1996 </copyright>
+		<edition> FIRST </edition>
+		<isbn> 9781478937968 </isbn>
+		<publisher> GRAND CENTRAL PUBLISHING </publisher>
+		<price> 250 </price>
+ 	</book>
+</books>
